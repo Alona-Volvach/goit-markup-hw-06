@@ -34,7 +34,6 @@
             <li class="nav-item"><a class="nav-link" href="">Contacts</a></li>
           </ul>
         </nav>
-
         <address class="contacts">
           <ul class="contacts-list">
             <li class="contacts-item">
@@ -49,6 +48,19 @@
             </li>
           </ul>
         </address>
+        <button class="burger-btn" type="button">
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" type="button"></button>
+          <nav class="nav-mobile-menu"></nav>
+          <address class="contacts-mobile-menu"></address>
+          <div class="mobile-menu-link"></div>
+        </div>
       </div>
     </header>
     <main class="page-main">
@@ -63,7 +75,7 @@
           </button>
         </div>
       </section>
-      <section class="section section-main-advantages">
+      <section class="section section-main-advantages hidden">
         <div class="container advantages-container">
           <h2 class="tittle-advantages visually-hidden">Advantages</h2>
           <ul class="advantages-list">
@@ -119,7 +131,7 @@
           </ul>
         </div>
       </section>
-      <section class="section section-main-teamcard">
+      <section class="section section-main-teamcard hidden">
         <div class="container teamcard-container">
           <h2 class="title-teamcard">Our Team</h2>
           <ul class="teamcard-list">
@@ -362,7 +374,7 @@
           </ul>
         </div>
       </section>
-      <section class="section section-main-portfolio">
+      <section class="section section-main-portfolio hidden">
         <div class="container portfolio-container">
           <h2 class="titlte-portfolio">Our Portfolio</h2>
           <ul class="list-portfolio">
@@ -490,7 +502,7 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer hidden">
       <div class="container footer-container">
         <div class="logo-footer">
           <a class="logo footer-logo" href="./index.html"
@@ -570,7 +582,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open" data-modal>
+    <div class="backdrop is-open hidden" data-modal>
       <div class="modal">
         <button class="close-popup" type="button" data-modal-close>
           <svg class="close-popup-icon" width="8" height="8">
