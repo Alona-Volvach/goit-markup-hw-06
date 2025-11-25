@@ -414,6 +414,7 @@ img {
   max-width: 356px;
 }
 .subtitle-advantages {
+  font-weight: 700;
   margin-bottom: 8px;
   font-size: 36px;
   line-height: 1.11;
@@ -422,6 +423,7 @@ img {
   color: #2e2f42;
 }
 .advatades-text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -438,6 +440,9 @@ img {
 @media screen and (min-width: 1158px) {
   .advantages-list {
     gap: 24px;
+  }
+  .advatades-text {
+    font-weight: 400;
   }
   .icon-advantages {
     display: flex;
@@ -457,6 +462,7 @@ img {
     width: calc((100%-72px) / 4);
   }
   .subtitle-advantages {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
   }
@@ -478,16 +484,16 @@ img {
 }
 .teamcard-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   row-gap: 72px;
-  max-width: 264px;
 }
 .teamcard-item {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
   padding-inline: 0px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    0 1px 1px 0 rgba(203, 203, 203, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 .card-container {
   padding: 32px 0;
@@ -514,8 +520,6 @@ img {
   justify-content: center;
   align-items: center;
   gap: 24px;
-  margin-right: 0 auto;
-  margin-left: 0 auto;
   padding: 0px 16px;
 }
 .links-item {
@@ -540,6 +544,6 @@ img {
 }
 @media screen and (min-width: 768px) {
   .teamcard-list {
-    row-gap: 24px;
+    column-gap: 24px;
   }
 }
