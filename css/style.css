@@ -402,3 +402,62 @@ img {
       url(../images/hero/hero-desktop2x.jpg);
   }
 }
+.icon-advantages {
+  display: none;
+}
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+}
+.advantages-item {
+  max-width: 356px;
+}
+.subtitle-advantages {
+  margin-bottom: 8px;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.advatades-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+@media screen and (min-width: 768px) {
+  .advantages-list {
+    column-gap: 24px;
+  }
+  .subtitle-advantages {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .advantages-list {
+    gap: 24px;
+  }
+  .icon-advantages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+    width: 264px;
+    height: 112px;
+    text-align: center;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+  }
+  .advantages-item {
+    max-width: 264px;
+    width: calc((100%-72px) / 4);
+  }
+  .subtitle-advantages {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
