@@ -713,7 +713,7 @@
         </div>
       </section>
     </main>
-    <footer class="page-footer hidden">
+    <footer class="page-footer">
       <div class="container footer-container">
         <div class="logo-footer">
           <a class="logo footer-logo" href="./index.html"
@@ -784,6 +784,7 @@
                 placeholder="E-mail"
               />
             </label>
+
             <button class="button-footer" type="submit">
               Subscribe<svg class="subscribe-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>
@@ -793,7 +794,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-open hidden" data-modal>
+    <div class="backdrop" data-modal>
       <div class="modal">
         <button class="close-popup" type="button" data-modal-close>
           <svg class="close-popup-icon" width="8" height="8">
@@ -862,8 +863,10 @@
                 <svg class="policy-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-chekk"></use>
                 </svg> </span
-              >I accept the terms and conditions of the
-              <a href="" class="accent policy-link">Privacy Policy</a></label
+              ><span>
+                I accept the terms and conditions of the
+                <a href="" class="accent policy-link">Privacy Policy</a></span
+              ></label
             >
           </div>
           <button class="field-send" type="submit">Send</button>
