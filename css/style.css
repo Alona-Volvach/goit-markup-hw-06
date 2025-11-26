@@ -1003,3 +1003,14 @@ img {
     background-color: #404bbf;
   }
 }
+@media screen and (min-width: 1158px) {
+  .close-popup {
+    cursor: pointer;
+  }
+  .field-send {
+    cursor: pointer;
+  }
+  .label-policy {
+    cursor: pointer;
+  }
+}
