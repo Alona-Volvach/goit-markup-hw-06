@@ -966,6 +966,7 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .close-popup {
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -996,21 +997,11 @@ img {
       fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .field-send {
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .field-send:hover,
   .field-send:focus {
     background-color: #404bbf;
-  }
-}
-@media screen and (min-width: 1158px) {
-  .close-popup {
-    cursor: pointer;
-  }
-  .field-send {
-    cursor: pointer;
-  }
-  .label-policy {
-    cursor: pointer;
   }
 }
