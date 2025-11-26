@@ -705,6 +705,11 @@ img {
   background-color: transparent;
 }
 .button-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 4px;
   padding-inline: 24px;
   min-width: 165px;
@@ -735,11 +740,6 @@ img {
     width: 264px;
     margin-bottom: 0;
     margin-right: 24px;
-  }
-  .button-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
 @media screen and (min-width: 1158px) {
